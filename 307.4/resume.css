@@ -1,0 +1,42 @@
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Aligns items to the top */
+    width: 80%;
+    margin: auto; /* Center the section */
+    background-color: #222; /* Dark background */
+}
+
+/* Common Box Styling */
+.box {
+    border: 2px solid cyan; /* Light blue border */
+    color: white;
+}
+
+/* Box 1 - Left Side */
+#box1 {
+    flex: 1 1 40%; /* Takes 40% of the section */
+    text-align: left; /* Aligns text to the right */
+}
+
+/* Box 2 - Right Side */
+#box2 {
+        flex: 1 1 40%; /* Takes 40% */
+        text-align: left; /* Aligns text to the right */
+}
+
+/* Box 3 - Full Width Below */
+#box3 {
+    flex: 1 1 100%; /* Takes full width */
+    text-align: center;
+    background-color: #333;
+}
+
+/* Box 1 Image */
+#box1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Circular image */
+    border: 2px solid white;
+    text-align: right; /* Aligns text to the right */
+}
